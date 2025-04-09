@@ -2,7 +2,9 @@
 
 This project implements a digital scratch-off ticket experience similar to lottery scratch cards using SwiftUI. The implementation provides a realistic scratching mechanism with fade effects and control options.
 
-![Example scratch-off effect](example.gif)
+<div align="center">
+  <img src="example.gif" alt="Example scratch-off effect">
+</div>
 
 ## Core Components
 
