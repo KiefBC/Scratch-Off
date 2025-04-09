@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		FBAC25EC2DA6E28600DBB506 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBAC25D32DA6E28500DBB506 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBAC25DA2DA6E28500DBB506;
+			remoteInfo = "Scratch Off";
+		};
+		FBAC25F62DA6E28600DBB506 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBAC25D32DA6E28500DBB506 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBAC25DA2DA6E28500DBB506;
+			remoteInfo = "Scratch Off";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBAC25DB2DA6E28500DBB506 /* Scratch Off.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scratch Off.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBAC25EB2DA6E28600DBB506 /* Scratch OffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scratch OffTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBAC25F52DA6E28600DBB506 /* Scratch OffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scratch OffUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FBAC25DD2DA6E28500DBB506 /* Scratch Off */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Scratch Off";
+			sourceTree = "<group>";
+		};
+		FBAC25EE2DA6E28600DBB506 /* Scratch OffTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Scratch OffTests";
+			sourceTree = "<group>";
+		};
+		FBAC25F82DA6E28600DBB506 /* Scratch OffUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Scratch OffUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBAC25D82DA6E28500DBB506 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBAC25E82DA6E28600DBB506 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBAC25F22DA6E28600DBB506 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBAC25D22DA6E28500DBB506 = {
+			isa = PBXGroup;
+			children = (
+				FBAC25DD2DA6E28500DBB506 /* Scratch Off */,
+				FBAC25EE2DA6E28600DBB506 /* Scratch OffTests */,
+				FBAC25F82DA6E28600DBB506 /* Scratch OffUITests */,
+				FBAC25DC2DA6E28500DBB506 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBAC25DC2DA6E28500DBB506 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBAC25DB2DA6E28500DBB506 /* Scratch Off.app */,
+				FBAC25EB2DA6E28600DBB506 /* Scratch OffTests.xctest */,
+				FBAC25F52DA6E28600DBB506 /* Scratch OffUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBAC25DA2DA6E28500DBB506 /* Scratch Off */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBAC25FF2DA6E28600DBB506 /* Build configuration list for PBXNativeTarget "Scratch Off" */;
+			buildPhases = (
+				FBAC25D72DA6E28500DBB506 /* Sources */,
+				FBAC25D82DA6E28500DBB506 /* Frameworks */,
+				FBAC25D92DA6E28500DBB506 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FBAC25DD2DA6E28500DBB506 /* Scratch Off */,
+			);
+			name = "Scratch Off";
+			packageProductDependencies = (
+			);
+			productName = "Scratch Off";
+			productReference = FBAC25DB2DA6E28500DBB506 /* Scratch Off.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBAC25EA2DA6E28600DBB506 /* Scratch OffTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBAC26022DA6E28600DBB506 /* Build configuration list for PBXNativeTarget "Scratch OffTests" */;
+			buildPhases = (
+				FBAC25E72DA6E28600DBB506 /* Sources */,
+				FBAC25E82DA6E28600DBB506 /* Frameworks */,
+				FBAC25E92DA6E28600DBB506 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBAC25ED2DA6E28600DBB506 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FBAC25EE2DA6E28600DBB506 /* Scratch OffTests */,
+			);
+			name = "Scratch OffTests";
+			packageProductDependencies = (
+			);
+			productName = "Scratch OffTests";
+			productReference = FBAC25EB2DA6E28600DBB506 /* Scratch OffTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBAC25F42DA6E28600DBB506 /* Scratch OffUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBAC26052DA6E28600DBB506 /* Build configuration list for PBXNativeTarget "Scratch OffUITests" */;
+			buildPhases = (
+				FBAC25F12DA6E28600DBB506 /* Sources */,
+				FBAC25F22DA6E28600DBB506 /* Frameworks */,
+				FBAC25F32DA6E28600DBB506 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBAC25F72DA6E28600DBB506 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FBAC25F82DA6E28600DBB506 /* Scratch OffUITests */,
+			);
+			name = "Scratch OffUITests";
+			packageProductDependencies = (
+			);
+			productName = "Scratch OffUITests";
+			productReference = FBAC25F52DA6E28600DBB506 /* Scratch OffUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBAC25D32DA6E28500DBB506 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					FBAC25DA2DA6E28500DBB506 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					FBAC25EA2DA6E28600DBB506 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = FBAC25DA2DA6E28500DBB506;
+					};
+					FBAC25F42DA6E28600DBB506 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = FBAC25DA2DA6E28500DBB506;
+					};
+				};
+			};
+			buildConfigurationList = FBAC25D62DA6E28500DBB506 /* Build configuration list for PBXProject "Scratch Off" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBAC25D22DA6E28500DBB506;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FBAC25DC2DA6E28500DBB506 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBAC25DA2DA6E28500DBB506 /* Scratch Off */,
+				FBAC25EA2DA6E28600DBB506 /* Scratch OffTests */,
+				FBAC25F42DA6E28600DBB506 /* Scratch OffUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBAC25D92DA6E28500DBB506 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBAC25E92DA6E28600DBB506 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBAC25F32DA6E28600DBB506 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBAC25D72DA6E28500DBB506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBAC25E72DA6E28600DBB506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBAC25F12DA6E28600DBB506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBAC25ED2DA6E28600DBB506 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBAC25DA2DA6E28500DBB506 /* Scratch Off */;
+			targetProxy = FBAC25EC2DA6E28600DBB506 /* PBXContainerItemProxy */;
+		};
+		FBAC25F72DA6E28600DBB506 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBAC25DA2DA6E28500DBB506 /* Scratch Off */;
+			targetProxy = FBAC25F62DA6E28600DBB506 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FBAC25FD2DA6E28600DBB506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBAC25FE2DA6E28600DBB506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBAC26002DA6E28600DBB506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Scratch Off/Preview Content\"";
+				DEVELOPMENT_TEAM = KD9H4U4568;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LOL.Scratch-Off";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBAC26012DA6E28600DBB506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Scratch Off/Preview Content\"";
+				DEVELOPMENT_TEAM = KD9H4U4568;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LOL.Scratch-Off";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FBAC26032DA6E28600DBB506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KD9H4U4568;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LOL.Scratch-OffTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scratch Off.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scratch Off";
+			};
+			name = Debug;
+		};
+		FBAC26042DA6E28600DBB506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KD9H4U4568;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LOL.Scratch-OffTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scratch Off.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scratch Off";
+			};
+			name = Release;
+		};
+		FBAC26062DA6E28600DBB506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KD9H4U4568;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LOL.Scratch-OffUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Scratch Off";
+			};
+			name = Debug;
+		};
+		FBAC26072DA6E28600DBB506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KD9H4U4568;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LOL.Scratch-OffUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Scratch Off";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBAC25D62DA6E28500DBB506 /* Build configuration list for PBXProject "Scratch Off" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBAC25FD2DA6E28600DBB506 /* Debug */,
+				FBAC25FE2DA6E28600DBB506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBAC25FF2DA6E28600DBB506 /* Build configuration list for PBXNativeTarget "Scratch Off" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBAC26002DA6E28600DBB506 /* Debug */,
+				FBAC26012DA6E28600DBB506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBAC26022DA6E28600DBB506 /* Build configuration list for PBXNativeTarget "Scratch OffTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBAC26032DA6E28600DBB506 /* Debug */,
+				FBAC26042DA6E28600DBB506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBAC26052DA6E28600DBB506 /* Build configuration list for PBXNativeTarget "Scratch OffUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBAC26062DA6E28600DBB506 /* Debug */,
+				FBAC26072DA6E28600DBB506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBAC25D32DA6E28500DBB506 /* Project object */;
+}
