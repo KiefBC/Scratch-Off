@@ -2,6 +2,8 @@
 
 This project implements a digital scratch-off ticket experience similar to lottery scratch cards using SwiftUI. The implementation provides a realistic scratching mechanism with fade effects and control options.
 
+![Example scratch-off effect](example.gif)
+
 ## Core Components
 
 ### State Management
@@ -76,10 +78,10 @@ func removeFadePoints() {
     Task {
         isResetting = true
         let points = fadePoints
-        
+
         for (ix, point) in points.enumerated() {
             try? await Task.sleep(for: .milliseconds(7.5))
-            
+
             await MainActor.run {
                 withAnimation(.default) {
                     fadePoints.removeAll { $0.id == point.id }
