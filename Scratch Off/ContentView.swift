@@ -14,6 +14,7 @@ struct ContentView: View {
     @State private var resetScratch: Bool = false // Reset the scratch state
     @State private var fadingTimerActive: Bool = true // Track if the fading timer is active
     @State private var fadingTime: Timer? // Hold the timer reference
+    @State private var isResetting: Bool = false // Track if the scratch is resetting
     
     let fadeDuration: TimeInterval = 0.25 // Duration of the fade effect
     let radius: CGFloat = 35 // Radius of the mouse path
@@ -116,14 +117,21 @@ struct ContentView: View {
     
     /// Removes the FadePoints to reset the scratch effect
     func removeFadePoints() {
-        for (ix, point) in fadePoints.enumerated() {
-            let scratchDelay: TimeInterval = Double(ix) * 0.0075 // Calculate the delay for each point
+        Task {
+            isResetting = true
+            let points = fadePoints
             
-            DispatchQueue.main.asyncAfter(deadline: .now() + scratchDelay) {
-                withAnimation(.default) {
-                    fadePoints.removeAll { $0.id == point.id } // Remove all fade points
+            for (ix, point) in points.enumerated() {
+                // Still use a small delay between each point removal for the animation effect
+                try? await Task.sleep(for: .milliseconds(7.5))
+                
+                await MainActor.run {
+                    withAnimation(.default) {
+                        fadePoints.removeAll { $0.id == point.id }
+                    }
                 }
             }
+            isResetting = false
         }
     }
 }

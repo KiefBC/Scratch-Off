@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FBAC260B2DA6F88000DBB506 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = FBAC260A2DA6F87E00DBB506 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		FBAC25EC2DA6E28600DBB506 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		FBAC25DB2DA6E28500DBB506 /* Scratch Off.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scratch Off.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBAC25EB2DA6E28600DBB506 /* Scratch OffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scratch OffTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBAC25F52DA6E28600DBB506 /* Scratch OffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scratch OffUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBAC260A2DA6F87E00DBB506 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		FBAC25D22DA6E28500DBB506 = {
 			isa = PBXGroup;
 			children = (
+				FBAC260A2DA6F87E00DBB506 /* README.md */,
 				FBAC25DD2DA6E28500DBB506 /* Scratch Off */,
 				FBAC25EE2DA6E28600DBB506 /* Scratch OffTests */,
 				FBAC25F82DA6E28600DBB506 /* Scratch OffUITests */,
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBAC260B2DA6F88000DBB506 /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
