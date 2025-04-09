@@ -34,11 +34,11 @@ struct ContentView: View {
                     .clipped()
                     .mask( // Using a mask to hide the image
                         Canvas { (context, size) in // Using a canvas to draw the image
-                            for (ix, point) in fadePoints.enumerated() {
+                            for (index, point) in fadePoints.enumerated() {
                                 let gradient: Gradient = Gradient(stops: [.init(color: .white, location: 0), .init(color: .white.opacity(0), location: 1)]) // Gradient for the mask
                                 
                                 context.fill( // Fill the path with the gradient
-                                    Path(ellipseIn: CGRect(x: point.location.x - radius, y: point.location.y - radius, width: radius * 2, height: radius * 2)), with: .radialGradient(gradient, center: point.location, startRadius: 0, endRadius: radius + CGFloat(ix + 1)))
+                                    Path(ellipseIn: CGRect(x: point.location.x - radius, y: point.location.y - radius, width: radius * 2, height: radius * 2)), with: .radialGradient(gradient, center: point.location, startRadius: 0, endRadius: radius + CGFloat(index + 1)))
                             }
                         }
                     )
@@ -80,7 +80,7 @@ struct ContentView: View {
                             .frame(width: 32, height: 32)
                         }
                         .foregroundStyle(.white)
-                        .padding(.vertical, 64)
+                        // .padding(.vertical, 64) ???: This is only needed if we use the .ignoresSafeArea() modifier
                         .padding(.horizontal, 32)
                     }
             }
@@ -90,7 +90,7 @@ struct ContentView: View {
             }
         }
         .preferredColorScheme(.dark) // Set the preferred color scheme to dark
-        .ignoresSafeArea() // Ignore safe area to cover the entire screen
+        // .ignoresSafeArea() // Ignore safe area to cover the entire screen ???: Is this even needed? Seems "unsafe" to ignore the safe area
     }
     
     // MARK: - Functions
@@ -121,7 +121,7 @@ struct ContentView: View {
             isResetting = true
             let points = fadePoints
             
-            for (ix, point) in points.enumerated() {
+            for (index, point) in points.enumerated() {
                 // Still use a small delay between each point removal for the animation effect
                 try? await Task.sleep(for: .milliseconds(7.5))
                 
